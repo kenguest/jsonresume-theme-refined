@@ -110,7 +110,6 @@
                     <p class="text-muted">
                       <small>
                         <span class="space-right"> {{startDate}} - {{#if endDate}} {{endDate}} {{else}} Present {{/if}} </span>
-                        {{#if duration}} <span> <i class="fa fa-clock-o icon-left"></i> {{duration}} </span> {{/if}}
                       </small>
                     </p>
                     <p>{{summary}}</p>
@@ -264,6 +263,9 @@
                 </li>
               {{/each}}
             </ul>
+            {{else}}
+            <h4 id="references"><span class="fa fa-lg fa-thumbs-up"></span> <span class="title">References</span> </h4>
+            Available on request.
             {{/if}}
 
             {{#if resume.languages}}
