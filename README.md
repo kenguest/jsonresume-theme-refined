@@ -4,9 +4,9 @@ This is a fork from [Kwan Theme](https://github.com/icoloma/jsonresume-theme-kwa
 
 It's been refined - just a little bit!
 
-    * Month names are in long form, e.g. "July" instead of "Jul".
-    * The small clock icon and the duration have been removed.
-    * If no references are specified, then the phrase "Available on request." is displayed.
+ * Month names are in long form, e.g. "July" instead of "Jul".
+ * The small clock icon and the duration have been removed.
+ * If no references are specified, then the phrase "Available on request." is displayed.
 
 [Theme Preview](http://themes.jsonresume.org/refined)
 
