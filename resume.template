@@ -105,7 +105,7 @@
                   <div class="content has-sidebar">
                     <p class="clear-margin-sm">
                       <strong>{{position}}</strong>,
-                      {{#if website}}<a href="{{website}}" target="_blank">{{company}}</a>{{else}}{{company}}{{/if}}
+                      <strong>{{#if website}}<a href="{{website}}" target="_blank">{{company}}</a>{{else}}{{company}}{{/if}}</strong>
                     </p>
                     <p class="text-muted">
                       <small>
@@ -130,7 +130,7 @@
             <ul class="list-unstyled">
               {{#each resume.skills}}
                 <li class="card-nested skill {{skill_class}}">
-                  <strong>{{name}} ({{skill_class}}):</strong> 
+                  <strong>{{name}}:</strong>
                   {{#keywords}} <span class="enumeration">{{.}}</span> {{/keywords}}
               </li>
               {{/each}}
