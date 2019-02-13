@@ -17,7 +17,7 @@
   "homepage": "https://github.com/kenguest/jsonresume-theme-refined",
   "dependencies": {
     "gravatar": "^1.0.6",
-    "handlebars": "^2.0.0-alpha.4",
+    "handlebars": "^4.0.0",
     "moment": "^2.8.1",
     "optimist": "^0.6.1",
     "resume-schema": "0.0.15",
