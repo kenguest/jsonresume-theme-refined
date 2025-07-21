@@ -20,7 +20,7 @@
     "handlebars": "^4.0.0",
     "moment": "^2.8.1",
     "optimist": "^0.6.1",
-    "resume-schema": "0.0.15",
+    "resume-schema": "0.0.17",
     "tarball-extract": "0.0.3",
     "underscore": "^1.6.0"
   },
